@@ -63,9 +63,7 @@ class Home():
         
 
 
-        exit_button=Menu(menu)
-        menu.add_cascade(label='Exit',menu=exit_button)
-        exit_button.add_command(label='Exit',command=menu.quit)
+       
 
         #can do a prompt to do yes or  no
 
