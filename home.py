@@ -60,10 +60,7 @@ class Home():
         submenu.add_command(label='Report Infringement', command=self.report_infringement)
         submenu.add_separator()
 
-        about_us=Menu(menu)
-        menu.add_cascade(label='About Us',menu=about_us)
-        about_us.add_command(label='About us',command=self.about_us)
-        about_us.add_separator()
+        
 
 
         exit_button=Menu(menu)
