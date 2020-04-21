@@ -40,19 +40,20 @@ class Home():
         menu = Menu(master)
         master.config(menu=menu)
 
-        home=Menu(menu)
-        menu.add_cascade(label='Home',menu=home)
-        home.add_command(label='Take a Tour!!',command=self.take_a_tour)
-        home.add_command(label='Terms of Use',command=self.terms_of_use)
-        home.add_separator()
-
-        login_option=Menu(menu)
+login_option=Menu(menu)
         menu.add_cascade(label='Register and Login',menu=login_option)
         login_option.add_command(label='Login',command=self.login)
         login_option.add_command(label='Register',command=self.register)
         login_option.add_command(label='Admin Login',command=self.admin_login)
         login_option.add_separator()
 
+        home=Menu(menu)
+        menu.add_cascade(label='Home',menu=home)
+        home.add_command(label='Take a Tour!!',command=self.take_a_tour)
+        home.add_command(label='Terms of Use',command=self.terms_of_use)
+        home.add_separator()
+
+        
         
 
         
