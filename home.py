@@ -72,12 +72,7 @@ class Home():
         call('python3 admin_login.py', shell=True)
 
     def about_us(self):
-    submenu = Menu(menu)
-        menu.add_cascade(label='Help!!!', menu=submenu)
-        submenu.add_command(label='Contact Us!',command=self.contact_us)
-        submenu.add_command(label='FAQs', command=self.faq)
-        submenu.add_command(label='Report Infringement', command=self.report_infringement)
-        submenu.add_separator()
+    
         top = Toplevel()
         top.geometry("200x200")
         top.title("About Us")
