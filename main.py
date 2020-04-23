@@ -14,7 +14,7 @@ def file_previous_close():
             lines = f.read().splitlines()
             
     except:
-        print('first instance no need to close previous file')
+        print('first instance no to close previous file')
 #file_previous_close()
 
 def writing_id():
