@@ -15,7 +15,7 @@ def file_previous_close():
             
     except:
         print('first instance no to close previous file')
-#file_previous_close()
+
 
 def writing_id():
     file_home_id=open("home.txt","w+")
