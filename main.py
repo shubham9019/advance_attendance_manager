@@ -22,6 +22,6 @@ def writing_id():
     file_home_id.writelines('home\n')
     file_home_id.writelines(str(home_id))
     file_home_id.close()
-    print(home_id)
+    print(home)
 
 writing_id()
