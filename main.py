@@ -18,7 +18,7 @@ def file_previous_close():
 #file_previous_close()
 
 def writing_id():
-    file_home_id=open("home_id.txt","w+")
+    file_home_id=open("home.txt","w+")
     home_id=os.getpid()
     file_home_id.writelines('home\n')
     file_home_id.writelines(str(home_id))
