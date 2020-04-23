@@ -12,8 +12,7 @@ def file_previous_close():
     try:
         with open('home_id.txt', 'r') as f:
             lines = f.read().splitlines()
-            last_line = lines[-1]
-            os.kill(int(last_line),signal.SIGKILL)
+            
     except:
         print('first instance no need to close previous file')
 #file_previous_close()
