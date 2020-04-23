@@ -1,8 +1,7 @@
 from tkinter import *
 import sys
 import os
-import signal
-import time
+
 from subprocess import *
 from tkinter import messagebox
 
