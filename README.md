@@ -1,1 +1,0 @@
-# advance_attendance_manager
