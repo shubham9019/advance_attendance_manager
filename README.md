@@ -33,6 +33,6 @@ This feels great to be tested on multiple computers. You can, of course, run the
 
 ## License
 
-This project is licensed under the MIT License - see the  [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md)  file for details
+This project is licensed under the MIT License - see the  [LICENSE.md](https://github.com/shubham9019/omega_attendance_manager/blob/master/LICENSE)  file for details
 
 **Note - Please PIP install all the dependencies from Built with section before use**
