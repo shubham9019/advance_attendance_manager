@@ -95,6 +95,9 @@ class Home():
         Label1 = Label(master, text='Username:')
         Label1.pack(padx=15, pady=5)
         
+        Label1 = Label(master, text='Username1:')
+        Label1.pack(padx=15, pady=5)
+        
         Label1 = Label(master, text='email:')
         Label1.pack(padx=15, pady=5)
 
